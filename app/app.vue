@@ -32,10 +32,10 @@ const navItems = computed<NavigationMenuItem[]>(() => [
     <UHeader>
       <template #title>
         <NuxtLink to="/" class="flex items-center gap-2">
-          <span class="inline-flex items-center justify-center size-8 rounded-full bg-primary-600 text-white text-sm font-bold">IW</span>
+          <span class="inline-flex items-center justify-center size-8 rounded-full bg-primary-600 text-white text-sm font-bold">IA</span>
           <div class="flex flex-col leading-tight">
             <span class="font-semibold text-sm">Ian Andwati</span>
-            <span class="text-xs text-(--ui-text-muted)">Software Engineer</span>
+            <span class="text-xs text-(--ui-text-muted)">0xmockinspectre</span>
           </div>
         </NuxtLink>
       </template>
@@ -54,7 +54,7 @@ const navItems = computed<NavigationMenuItem[]>(() => [
         <UButton
           color="neutral"
           variant="ghost"
-          to="https://x.com"
+          to="https://x.com/andwati_"
           target="_blank"
           icon="i-simple-icons-x"
           aria-label="X"
@@ -78,7 +78,7 @@ const navItems = computed<NavigationMenuItem[]>(() => [
     <UFooter>
       <template #left>
         <p class="text-sm text-(--ui-text-muted)">
-          © {{ new Date().getFullYear() }} Ian Andwati. Built with Nuxt.
+          © 2022 - {{ new Date().getFullYear() }} 0xmockinspectre. Built with Nuxt.
         </p>
       </template>
 
@@ -94,10 +94,18 @@ const navItems = computed<NavigationMenuItem[]>(() => [
         <UButton
           color="neutral"
           variant="ghost"
-          to="https://x.com"
+          to="https://x.com/andwati_"
           target="_blank"
           icon="i-simple-icons-x"
           aria-label="X"
+        />
+        <UButton
+          color="neutral"
+          variant="ghost"
+          to="https://linkedin.com/in/andwati"
+          target="_blank"
+          icon="i-simple-icons-linkedin"
+          aria-label="LinkedIn"
         />
       </template>
     </UFooter>

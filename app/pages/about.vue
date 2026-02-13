@@ -2,19 +2,20 @@
 useSeoMeta({
 	title: "About — Ian Andwati",
 	description:
-		"Learn more about Ian Andwati — software engineer passionate about building great products.",
+		"Learn more about Ian Andwati — software engineer interested in offensive security and reverse engineering.",
 });
 
 const skills = [
+	{ name: "C", icon: "i-simple-icons-c" },
+	{ name: "Rust", icon: "i-simple-icons-rust" },
+	{ name: "Go", icon: "i-simple-icons-go" },
+	{ name: "Python", icon: "i-simple-icons-python" },
 	{ name: "TypeScript", icon: "i-simple-icons-typescript" },
 	{ name: "Vue.js", icon: "i-simple-icons-vuedotjs" },
 	{ name: "Nuxt", icon: "i-simple-icons-nuxtdotjs" },
-	{ name: "Node.js", icon: "i-simple-icons-nodedotjs" },
-	{ name: "Go", icon: "i-simple-icons-go" },
-	{ name: "Python", icon: "i-simple-icons-python" },
 	{ name: "Docker", icon: "i-simple-icons-docker" },
 	{ name: "Git", icon: "i-simple-icons-git" },
-	{ name: "PostgreSQL", icon: "i-simple-icons-postgresql" },
+	{ name: "Linux", icon: "i-simple-icons-linux" },
 ];
 </script>
 
@@ -34,9 +35,10 @@ const skills = [
           <div class="space-y-4 text-center sm:text-left">
             <p class="text-xs font-semibold tracking-[0.2em] uppercase text-(--ui-text-muted)">About</p>
             <h1 class="text-3xl sm:text-4xl font-bold">Ian Andwati</h1>
+            <p class="text-sm font-mono text-primary-600 dark:text-primary-400">0xmockinspectre · offending binaries</p>
             <p class="text-lg text-(--ui-text-muted) leading-relaxed">
-              I'm a software engineer who loves building tools and products that make a difference.
-              My interests span full-stack development, open source, and exploring new technologies.
+              I spend my free time working on hobby projects and sometimes I write about my experiences.
+              In particular, I enjoy learning about offensive security and reverse engineering.
             </p>
           </div>
         </div>
@@ -51,9 +53,9 @@ const skills = [
             <p class="text-xs font-semibold tracking-[0.2em] uppercase text-primary-600 dark:text-primary-400 mb-3">Focus</p>
             <h2 class="text-2xl font-bold mb-4">What I Do</h2>
             <p class="text-(--ui-text-muted) leading-relaxed">
-              I specialize in building modern web applications using cutting-edge technologies.
-              Whether it's crafting a seamless user experience on the frontend or architecting
-              robust backend systems, I enjoy the entire spectrum of software development.
+              I'm interested in low-level systems programming, security research, and understanding how things
+              work under the hood. I build CPU emulators, CLI tools, bots, and web apps as hobby projects.
+              I also participate in CTF competitions and write about what I learn.
             </p>
           </div>
 
@@ -77,13 +79,12 @@ const skills = [
 
           <USeparator />
 
-          <!-- Contact -->
+          <!-- Connect -->
           <div>
             <p class="text-xs font-semibold tracking-[0.2em] uppercase text-primary-600 dark:text-primary-400 mb-3">Connect</p>
-            <h2 class="text-2xl font-bold mb-4">Get in Touch</h2>
+            <h2 class="text-2xl font-bold mb-4">Find Me</h2>
             <p class="text-(--ui-text-muted) leading-relaxed mb-6">
-              Feel free to reach out through any of the links below. Always happy to
-              connect and discuss interesting projects or ideas.
+              You can find me on the following platforms.
             </p>
             <div class="flex flex-wrap gap-3">
               <UButton
@@ -96,16 +97,27 @@ const skills = [
               />
               <UButton
                 label="X / Twitter"
-                to="https://x.com"
+                to="https://x.com/andwati_"
                 target="_blank"
                 icon="i-simple-icons-x"
                 color="neutral"
                 variant="outline"
               />
               <UButton
-                label="Email me"
-                to="mailto:hello@ianwati.dev"
-                icon="i-lucide-mail"
+                label="LinkedIn"
+                to="https://linkedin.com/in/andwati"
+                target="_blank"
+                icon="i-simple-icons-linkedin"
+                color="neutral"
+                variant="outline"
+              />
+              <UButton
+                label="Stack Overflow"
+                to="https://stackoverflow.com/users/12246264/ian-andwati"
+                target="_blank"
+                icon="i-simple-icons-stackoverflow"
+                color="neutral"
+                variant="outline"
               />
             </div>
           </div>
