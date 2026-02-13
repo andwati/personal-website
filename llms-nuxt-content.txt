@@ -1,0 +1,85 @@
+# Nuxt Content
+
+> Nuxt Content is a git-based CMS for Nuxt projects.
+
+## Documentation Sets
+
+- [Complete Documentation](https://content.nuxt.com/llms-full.txt): The complete documentation including all content
+
+## Landing
+
+- [The git-based CMS for Nuxt projects](https://content.nuxt.com): Nuxt Content is a module for Nuxt that provides a simple way to manage content for your application, within your git repository. It allows developers to write their content in Markdown, YAML or JSON files and then query and display it in their application.
+
+## Docs
+
+- [Nuxt Content v3](https://content.nuxt.com/raw/docs/getting-started.md): The powerful Git-based CMS designed specifically for Nuxt developers.
+- [Installation](https://content.nuxt.com/raw/docs/getting-started/installation.md): Get started with Nuxt Content v3 in your Nuxt application.
+- [Configuration](https://content.nuxt.com/raw/docs/getting-started/configuration.md): Nuxt Content is configured with sensible defaults.
+- [Migration](https://content.nuxt.com/raw/docs/getting-started/migration.md): How to migrate from v2 to v3
+- [Define Content Collections](https://content.nuxt.com/raw/docs/collections/define.md): Learn how to define and configure content collections in your Nuxt application.
+- [Collection Types](https://content.nuxt.com/raw/docs/collections/types.md): Learn about the two types of collections you can define in Nuxt Content.
+- [Collection Sources](https://content.nuxt.com/raw/docs/collections/sources.md): Learn how to import your files in Nuxt Content collections.
+- [Schema Validators](https://content.nuxt.com/raw/docs/collections/validators.md): Define collection schemas with your preferred validator and full type-safety.
+- [Inherit Schema from a Vue Component](https://content.nuxt.com/raw/docs/collections/inherit-schema-from-component.md): Reuse a Vue component's props as part of your collection schema using property().inherit().
+- [Markdown](https://content.nuxt.com/raw/docs/files/markdown.md): Create and query Markdown files in your Nuxt applications and use the MDC syntax to integrate Vue components.
+- [YAML](https://content.nuxt.com/raw/docs/files/yaml.md): How to define, write and query YAML data.
+- [JSON](https://content.nuxt.com/raw/docs/files/json.md): How to define, write and query JSON data.
+- [CSV](https://content.nuxt.com/raw/docs/files/csv.md): How to define, write and query CSV data.
+- [queryCollection](https://content.nuxt.com/raw/docs/utils/query-collection.md): The queryCollection composable provides methods for querying and fetching your collections.
+- [queryCollectionNavigation](https://content.nuxt.com/raw/docs/utils/query-collection-navigation.md): The queryCollectionNavigation composable generates the navigation tree of given collection.
+- [queryCollectionItemSurroundings](https://content.nuxt.com/raw/docs/utils/query-collection-item-surroundings.md): The queryCollectionItemSurroundings composable looks for sibling contents of an specific path.
+- [queryCollectionSearchSections](https://content.nuxt.com/raw/docs/utils/query-collection-search-sections.md): The queryCollectionSearchSections composable generates searchable sections from a collection for enhanced content discovery.
+- [ContentRenderer](https://content.nuxt.com/raw/docs/components/content-renderer.md): Takes your component from an AST to a wonderful template.
+- [Slot](https://content.nuxt.com/raw/docs/components/slot.md): The fastest way to inject Markdown into your Vue components.
+- [Prose Components](https://content.nuxt.com/raw/docs/components/prose.md): A list of Prose components.
+- [Server Hosting](https://content.nuxt.com/raw/docs/deploy/server.md): Node preset is the default preset for Nuxt and Nuxt Content. It is used to build and run Nuxt applications on Node.js.
+- [Static Hosting](https://content.nuxt.com/raw/docs/deploy/static.md): How to deploy Nuxt Content to static hosting with static site generation.
+- [Serverless Hosting](https://content.nuxt.com/raw/docs/deploy/serverless.md): How to deploy Nuxt Content on various serverless platforms.
+- [NuxtHub](https://content.nuxt.com/raw/docs/deploy/nuxthub.md): Deploy your Content app to NuxtHub
+- [Cloudflare Pages](https://content.nuxt.com/raw/docs/deploy/cloudflare-pages.md): Deploy your Content app to Cloudflare Pages
+- [Cloudflare Workers](https://content.nuxt.com/raw/docs/deploy/cloudflare-workers.md): Deploy your Content app to Cloudflare Workers
+- [Vercel](https://content.nuxt.com/raw/docs/deploy/vercel.md): Deploy your Content app to Vercel
+- [Netlify](https://content.nuxt.com/raw/docs/deploy/netlify.md): Deploy your Content app to Netlify
+- [AWS Amplify](https://content.nuxt.com/raw/docs/deploy/aws-amplify.md): Deploy your Content app to AWS Amplify
+- [Docker](https://content.nuxt.com/raw/docs/deploy/docker.md): Deploy your Content app with Docker
+- [Nuxt i18n module](https://content.nuxt.com/raw/docs/integrations/i18n.md): Learn how to create multi-language websites using Nuxt Content with the @nuxtjs/i18n module.
+- [Nuxt LLMs module](https://content.nuxt.com/raw/docs/integrations/llms.md): Learn how to generate AI-ready content files using Nuxt Content and the Nuxt LLMs module.
+- [Full-Text Search](https://content.nuxt.com/raw/docs/advanced/fulltext-search.md): Implement full-text search in your website using Nuxt Content
+- [Raw Content](https://content.nuxt.com/raw/docs/advanced/raw-content.md): Access to contents raw data in appliction
+- [Database](https://content.nuxt.com/raw/docs/advanced/database.md): How Nuxt Content stores and retrieves content
+- [Tools](https://content.nuxt.com/raw/docs/advanced/tools.md): Debugging tools
+- [Hooks](https://content.nuxt.com/raw/docs/advanced/hooks.md): Modify your content using Nuxt build time hooks
+- [Custom Source](https://content.nuxt.com/raw/docs/advanced/custom-source.md): Define a custom source to retrive data.
+- [Transformers](https://content.nuxt.com/raw/docs/advanced/transformers.md): Transformers in Nuxt Content allow you to programmatically parse, modify, or analyze your content files as they are processed.
+
+## Templates
+
+- [Canvas](https://content.nuxt.com/raw/templates/canvas.md): This is a fully customizable portfolio template with internationalization.
+- [Content Wind](https://content.nuxt.com/raw/templates/content-wind.md): A lightweight Nuxt theme to build your portfolio in minutes.
+- [Docs](https://content.nuxt.com/raw/templates/docs.md): Create your documentation in seconds with this template.
+- [Docus](https://content.nuxt.com/raw/templates/docus.md): Write beautiful docs with Markdown
+- [Docus I18n](https://content.nuxt.com/raw/templates/docus-i18n.md): Write beautiful internationalized docs with Markdown and Nuxt I18n uesssh
+- [Landing](https://content.nuxt.com/raw/templates/landing.md): A simple template you can use as a starting point for your next idea.
+- [Minimal Starter](https://content.nuxt.com/raw/templates/minimal-starter.md): Minimalist start, limitless possibilities: craft your vision!
+- [Minted Directory](https://content.nuxt.com/raw/templates/minted-directory.md): A SEO optimized directory starter kit that does not require a database.
+- [Portfolio](https://content.nuxt.com/raw/templates/portfolio.md): A sleek, modern portfolio template to showcase your work, skills, blog posts, speaking engagements, and provide contact information.
+- [Saas](https://content.nuxt.com/raw/templates/saas.md): A fully built SaaS application to launch your next project.
+
+## Posts
+
+- [Meet the AI Assistant for Docus](https://content.nuxt.com/raw/blog/ai-assistant.md): Setup your assistant in seconds with a single environment variable. Fast and real-time search. Make it yours with custom tools.
+- [Docus, the Comeback](https://content.nuxt.com/raw/blog/docus-v3.md): The Nuxt documentation theme and CLI is back with version 3 rewritten from the ground up.
+- [Nuxt Studio Alpha Release](https://content.nuxt.com/raw/blog/studio-module-alpha.md): Introducing the first alpha release of Nuxt Studio as a free, open-source Nuxt module. Edit your content in production with GitHub integration and real-time preview.
+- [Nuxt Studio is Now Free and Open Source](https://content.nuxt.com/raw/blog/studio-oss.md): We're officially releasing Nuxt Studio as a free, open-source, self-hosted module. The legacy nuxt.studio platform is being sunset and now becomes the official documentation. Your content editing experience continues, now on your own terms.
+- [Introducing Nuxt Studio v2](https://content.nuxt.com/raw/blog/studio-v2.md): We are excited to announce the v2 release of Nuxt Studio, the new editing experience for your Nuxt Content website
+- [Migrate Nuxt UI Pro Documentation Starter](https://content.nuxt.com/raw/blog/ui-pro-docs-migration.md): How to upgrade your Nuxt UI Pro documentation to Content and UI v3
+- [Nuxt Content v3](https://content.nuxt.com/raw/blog/v3.md): Content version 3 is out - introducing SQL based storage, collections, preview API for a better Studio integration and tons of performance improvements. 
+- [Behind the scenes of Nuxt Studio's visual editor](https://content.nuxt.com/raw/blog/visual-editor.md): Discover the inner workings of Nuxt Studio's visual editor and how it interprets the Markdown syntax and generate it back.
+- [Visual Front-matter Edition](https://content.nuxt.com/raw/changelog/frontmatter-form.md): Your page metadata is now editable through a visual interface instead of YAML.
+- [Studio Form Customisation](https://content.nuxt.com/raw/changelog/studio-customisation.md): Studio forms are dynamically generated based on the collection schema defined in your content configuration file.
+- [Visual YAML and JSON File Edition](https://content.nuxt.com/raw/changelog/yaml-json-form.md): Edit YAML and JSON files with an automatically generated form.
+
+## Notes
+
+- The documentation only includes Nuxt Content v3 docs.
+- The content is automatically generated from the same source as the official documentation.
