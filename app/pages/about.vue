@@ -1,8 +1,8 @@
 <script setup lang="ts">
 useSeoMeta({
-	title: "About — Ian Wati",
+	title: "About — Ian Andwati",
 	description:
-		"Learn more about Ian Wati — software engineer passionate about building great products.",
+		"Learn more about Ian Andwati — software engineer passionate about building great products.",
 });
 
 const skills = [
@@ -28,12 +28,12 @@ const skills = [
         <div class="flex flex-col sm:flex-row items-center sm:items-start gap-8 max-w-3xl">
           <img
             src="https://avatars.githubusercontent.com/u/andwati"
-            alt="Ian Wati"
+            alt="Ian Andwati"
             class="rounded-full size-32 ring-4 ring-primary-200 dark:ring-primary-800 shadow-lg flex-shrink-0"
           />
           <div class="space-y-4 text-center sm:text-left">
             <p class="text-xs font-semibold tracking-[0.2em] uppercase text-(--ui-text-muted)">About</p>
-            <h1 class="text-3xl sm:text-4xl font-bold">Ian Wati</h1>
+            <h1 class="text-3xl sm:text-4xl font-bold">Ian Andwati</h1>
             <p class="text-lg text-(--ui-text-muted) leading-relaxed">
               I'm a software engineer who loves building tools and products that make a difference.
               My interests span full-stack development, open source, and exploring new technologies.

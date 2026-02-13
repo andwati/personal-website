@@ -4,13 +4,13 @@ const { data: recentPosts } = await useAsyncData("recent-posts", () =>
 );
 
 useSeoMeta({
-	title: "Ian Wati — Software Engineer",
+	title: "Ian Andwati — Software Engineer",
 	description:
 		"Software engineer passionate about building great products. I write about development, technology, and the things I learn along the way.",
 });
 
 const codeSnippet = `const softwareEngineer = {
-  name: 'Ian Wati',
+  name: 'Ian Andwati',
   role: 'Software Engineer',
   skills: [
     'TypeScript', 'Vue.js', 'Nuxt',
@@ -37,7 +37,7 @@ const codeSnippet = `const softwareEngineer = {
             </p>
 
             <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
-              Hi, I'm <span class="text-primary-600 dark:text-primary-400">Ian Wati</span>
+              Hi, I'm <span class="text-primary-600 dark:text-primary-400">Ian Andwati</span>
             </h1>
 
             <p class="text-lg sm:text-xl text-(--ui-text-muted) leading-relaxed max-w-xl">
@@ -200,6 +200,96 @@ const codeSnippet = `const softwareEngineer = {
 
         <div class="mt-8 text-center sm:hidden">
           <UButton label="View All Posts" to="/blog" variant="subtle" trailing-icon="i-lucide-arrow-right" />
+        </div>
+      </UContainer>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 lg:py-24">
+      <UContainer>
+        <div class="text-center mb-12">
+          <p class="text-xs font-semibold tracking-[0.2em] uppercase text-primary-600 dark:text-primary-400 mb-3">Projects</p>
+          <h2 class="text-3xl sm:text-4xl font-bold">Things I've Built</h2>
+          <p class="mt-2 text-(--ui-text-muted)">A selection of projects I've worked on — from side experiments to production apps.</p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <UCard>
+            <div class="space-y-3">
+              <div class="flex items-center justify-between">
+                <div class="inline-flex items-center justify-center size-10 rounded-lg bg-primary-100 dark:bg-primary-900/30">
+                  <UIcon name="i-lucide-layout-dashboard" class="size-5 text-primary-600 dark:text-primary-400" />
+                </div>
+                <UButton
+                  icon="i-simple-icons-github"
+                  color="neutral"
+                  variant="ghost"
+                  size="sm"
+                  to="https://github.com/andwati"
+                  target="_blank"
+                  aria-label="View source"
+                />
+              </div>
+              <h3 class="font-semibold text-lg">Personal Website</h3>
+              <p class="text-sm text-(--ui-text-muted) leading-relaxed">This site! Built with Nuxt, Nuxt Content, and Nuxt UI. Features a blog, dark mode, and responsive design.</p>
+              <div class="flex flex-wrap gap-2 pt-1">
+                <UBadge label="Nuxt" variant="subtle" size="sm" />
+                <UBadge label="Vue" variant="subtle" size="sm" />
+                <UBadge label="Tailwind" variant="subtle" size="sm" />
+              </div>
+            </div>
+          </UCard>
+
+          <UCard>
+            <div class="space-y-3">
+              <div class="flex items-center justify-between">
+                <div class="inline-flex items-center justify-center size-10 rounded-lg bg-primary-100 dark:bg-primary-900/30">
+                  <UIcon name="i-lucide-terminal" class="size-5 text-primary-600 dark:text-primary-400" />
+                </div>
+                <UButton
+                  icon="i-simple-icons-github"
+                  color="neutral"
+                  variant="ghost"
+                  size="sm"
+                  to="https://github.com/andwati"
+                  target="_blank"
+                  aria-label="View source"
+                />
+              </div>
+              <h3 class="font-semibold text-lg">CLI Toolkit</h3>
+              <p class="text-sm text-(--ui-text-muted) leading-relaxed">A collection of developer CLI tools for automating workflows, generating boilerplate, and managing projects.</p>
+              <div class="flex flex-wrap gap-2 pt-1">
+                <UBadge label="Go" variant="subtle" size="sm" />
+                <UBadge label="CLI" variant="subtle" size="sm" />
+              </div>
+            </div>
+          </UCard>
+
+          <UCard>
+            <div class="space-y-3">
+              <div class="flex items-center justify-between">
+                <div class="inline-flex items-center justify-center size-10 rounded-lg bg-primary-100 dark:bg-primary-900/30">
+                  <UIcon name="i-lucide-database" class="size-5 text-primary-600 dark:text-primary-400" />
+                </div>
+                <UButton
+                  icon="i-simple-icons-github"
+                  color="neutral"
+                  variant="ghost"
+                  size="sm"
+                  to="https://github.com/andwati"
+                  target="_blank"
+                  aria-label="View source"
+                />
+              </div>
+              <h3 class="font-semibold text-lg">API Starter</h3>
+              <p class="text-sm text-(--ui-text-muted) leading-relaxed">A production-ready REST API boilerplate with authentication, rate limiting, and database migrations.</p>
+              <div class="flex flex-wrap gap-2 pt-1">
+                <UBadge label="Node.js" variant="subtle" size="sm" />
+                <UBadge label="PostgreSQL" variant="subtle" size="sm" />
+                <UBadge label="Docker" variant="subtle" size="sm" />
+              </div>
+            </div>
+          </UCard>
         </div>
       </UContainer>
     </section>

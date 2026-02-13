@@ -4,7 +4,7 @@ const { data: posts } = await useAsyncData("blog-posts", () =>
 );
 
 useSeoMeta({
-	title: "Blog — Ian Wati",
+	title: "Blog — Ian Andwati",
 	description:
 		"Thoughts on software development, technology, and the things I learn along the way.",
 });

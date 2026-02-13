@@ -34,7 +34,7 @@ const navItems = computed<NavigationMenuItem[]>(() => [
         <NuxtLink to="/" class="flex items-center gap-2">
           <span class="inline-flex items-center justify-center size-8 rounded-full bg-primary-600 text-white text-sm font-bold">IW</span>
           <div class="flex flex-col leading-tight">
-            <span class="font-semibold text-sm">Ian Wati</span>
+            <span class="font-semibold text-sm">Ian Andwati</span>
             <span class="text-xs text-(--ui-text-muted)">Software Engineer</span>
           </div>
         </NuxtLink>
@@ -78,7 +78,7 @@ const navItems = computed<NavigationMenuItem[]>(() => [
     <UFooter>
       <template #left>
         <p class="text-sm text-(--ui-text-muted)">
-          © {{ new Date().getFullYear() }} Ian Wati. Built with Nuxt.
+          © {{ new Date().getFullYear() }} Ian Andwati. Built with Nuxt.
         </p>
       </template>
 
