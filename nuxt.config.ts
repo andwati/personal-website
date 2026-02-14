@@ -8,4 +8,7 @@ export default defineNuxtConfig({
 		server: false,
 		client: false,
 	},
+	nitro: {
+		preset: "cloudflare-pages",
+	},
 });
