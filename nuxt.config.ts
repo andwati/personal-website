@@ -1,9 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-	modules: ["@nuxt/ui", "@nuxt/image", "@nuxt/content", "nuxt-studio"],
-	image: {
-		provider: "ipx",
-	},
+	modules: ["@nuxt/ui", "@nuxt/content", "nuxt-studio"],
 	devtools: { enabled: true },
 	css: ["~/assets/css/main.css"],
 	compatibilityDate: "2024-04-03",
