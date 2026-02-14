@@ -1,6 +1,14 @@
 name = "personal-website"
 main = "./.output/server/index.mjs"
 compatibility_date = "2025-02-14"
+compatibility_flags = ["nodejs_compat"]
 
 [site]
 bucket = "./.output/public"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "personal-website-db"
+database_id = "01d853f5-d6ad-4bb5-80eb-70471b8df5b3"
+
+

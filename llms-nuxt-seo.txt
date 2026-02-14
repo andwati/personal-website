@@ -1,0 +1,380 @@
+# Nuxt SEO
+
+> Nuxt SEO is a collection of hand-crafted Nuxt Modules to help you rank higher in search engines.
+
+Canonical Origin: https://nuxtseo.com
+
+## LLM Resources
+
+- [Full Content](https://nuxtseo.com/llms-full.txt)
+  Complete page content in markdown format.
+- [MCP](https://nuxtseo.com/mcp)
+  Model Context Protocol server endpoint for AI agent integration.
+- [sitemap.xml](/sitemap.xml)
+  XML sitemap for search engines and crawlers.
+- [robots.txt](/robots.txt)
+  Crawler rules and permissions.
+
+## Prerendered Pages
+
+- [Nuxt SEO · All-in-one Technical SEO for Nuxt](/): Nuxt SEO is a collection of hand-crafted Nuxt Modules to help you rank higher in search engines.
+- [Announcing Nuxt SEO Stable · Nuxt SEO](/announcement): Nuxt SEO v2 is here, learn about the journey of this milestone and what's next.
+- [Releases · Nuxt SEO](/releases): Nuxt SEO is a collection of hand-crafted Nuxt Modules to help you rank higher in search engines.
+
+- [RAG Setup · Nuxt AI Ready · Nuxt SEO](/docs/ai-ready/advanced/rag-example): Vectorize your site's markdown for semantic search and RAG pipelines.
+- [Configuration · Nuxt AI Ready · Nuxt SEO](/docs/ai-ready/api/config): Nuxt configuration reference for Nuxt AI Ready.
+- [Nuxt Hooks · Nuxt AI Ready · Nuxt SEO](/docs/ai-ready/api/nuxt-hooks): Nuxt hooks provided by nuxt-ai-ready for extending functionality.
+- [Install Nuxt AI Ready · Nuxt AI Ready · Nuxt SEO](/docs/ai-ready/getting-started/installation): Get started with Nuxt AI Ready by installing the dependency to your project.
+- [Introduction · Nuxt AI Ready · Nuxt SEO](/docs/ai-ready/getting-started/introduction): Make your Nuxt site discoverable by AI agents through llms.txt, MCP, and markdown APIs.
+- [CLI · Nuxt AI Ready · Nuxt SEO](/docs/ai-ready/guides/cli): Command-line interface for managing runtime sync and IndexNow.
+- [Cloudflare Deployment · Nuxt AI Ready · Nuxt SEO](/docs/ai-ready/guides/cloudflare): Deploy with Cloudflare D1 for persistent database storage.
+- [AI Content Signals · Nuxt AI Ready · Nuxt SEO](/docs/ai-ready/guides/content-signals): Control how AI systems interact with your content through robots.txt directives.
+- [IndexNow · Nuxt AI Ready · Nuxt SEO](/docs/ai-ready/guides/indexnow): Instantly notify search engines when your content changes.
+- [llms.txt Generation · Nuxt AI Ready · Nuxt SEO](/docs/ai-ready/guides/llms-txt): Configure llms.txt and llms-full.txt output for AI discovery.
+- [Markdown Conversion · Nuxt AI Ready · Nuxt SEO](/docs/ai-ready/guides/markdown): How HTML pages are converted to markdown for AI-friendly content delivery.
+- [Model Context Protocol (MCP) · Nuxt AI Ready · Nuxt SEO](/docs/ai-ready/guides/mcp): Connect AI agents like Claude to your Nuxt site via MCP servers with built-in tools and resources.
+- [Runtime Sync (Optional) · Nuxt AI Ready · Nuxt SEO](/docs/ai-ready/guides/runtime-indexing): Opt-in runtime page indexing for sites with dynamic content.
+- [Composables · Nuxt AI Ready · Nuxt SEO](/docs/ai-ready/nitro-api/composables): Server-side composables for accessing page data at runtime.
+- [Nitro Hooks · Nuxt AI Ready · Nuxt SEO](/docs/ai-ready/nitro-api/nitro-hooks): Nitro runtime hooks for modifying markdown output.
+
+- [Config · Nuxt Link Checker · Nuxt SEO](/docs/link-checker/api/config): Configure the link checker module.
+- [Install Nuxt Link Checker · Nuxt Link Checker · Nuxt SEO](/docs/link-checker/getting-started/installation): Get started with Nuxt Link Checker by installing the dependency to your project.
+- [Nuxt Link Checker · Nuxt SEO](/docs/link-checker/getting-started/introduction): Find and magically fix links that may be negatively affecting your Nuxt sites SEO.
+- [Troubleshooting Nuxt Link Checker · Nuxt Link Checker · Nuxt SEO](/docs/link-checker/getting-started/troubleshooting): Solve common link checking issues and create reproductions for bug reports.
+- [Checking Links on Build · Nuxt Link Checker · Nuxt SEO](/docs/link-checker/guides/build-scans): Configure link checking during Nuxt build process and CI integration.
+- [Exclude Links · Nuxt Link Checker · Nuxt SEO](/docs/link-checker/guides/exclude-links): Exclude links from being checked by the Nuxt Link Checker.
+- [Generate Reports · Nuxt Link Checker · Nuxt SEO](/docs/link-checker/guides/generating-reports): See your link checker results when you build.
+- [Link Checker DevTools · Nuxt Link Checker · Nuxt SEO](/docs/link-checker/guides/live-inspections): See link validation errors in real-time during development with Nuxt DevTools integration.
+- [Inspection Rules · Nuxt Link Checker · Nuxt SEO](/docs/link-checker/guides/rules): Find out what rules are run when checking your links and why they exist.
+- [v2.0.0 · Nuxt Link Checker · Nuxt SEO](/docs/link-checker/releases/v2): Release notes for v2.0.0. of Nuxt Link Checker.
+- [v3.0.0 · Nuxt Link Checker · Nuxt SEO](/docs/link-checker/releases/v3): Release notes for v3.0.0. of Nuxt Link Checker.
+- [v4.0.0 · Nuxt Link Checker · Nuxt SEO](/docs/link-checker/releases/v4): Release notes for v4.0.0. of Nuxt Link Checker.
+
+- [Community Videos · Nuxt SEO](/docs/nuxt-seo/getting-started/community-videos): Learn from the Nuxt community in using Nuxt SEO.
+- [Install Nuxt SEO · Nuxt SEO](/docs/nuxt-seo/getting-started/installation): Get started with Nuxt SEO by installing the dependency to your project.
+- [Nuxt SEO · Nuxt SEO](/docs/nuxt-seo/getting-started/introduction): Everything you need for technical SEO in Nuxt. One install, zero config, all the boring stuff handled.
+- [Troubleshooting · Nuxt SEO](/docs/nuxt-seo/getting-started/troubleshooting): Common issues and fixes for Nuxt SEO modules.
+- [Debugging Modules · Nuxt SEO](/docs/nuxt-seo/guides/debugging-modules): Disable modules and create minimal reproductions for Nuxt SEO issues.
+- [LLMs.txt · Nuxt SEO](/docs/nuxt-seo/guides/llms-txt): Help AI tools understand Nuxt SEO modules so they can assist you better.
+- [MCP Server · Nuxt SEO](/docs/nuxt-seo/guides/mcp): Connect AI assistants to Nuxt SEO documentation using the Model Context Protocol.
+- [Nuxt Content · Nuxt SEO](/docs/nuxt-seo/guides/nuxt-content): Integrating Nuxt SEO with Nuxt Content.
+- [Understanding Site Config · Nuxt SEO](/docs/nuxt-seo/guides/site-config): Site Config shares your site URL, name, and metadata across all SEO modules. Set it once, use it everywhere.
+- [Updating Nuxt Modules · Nuxt SEO](/docs/nuxt-seo/guides/updating-modules): Keep your Nuxt SEO modules up-to-date for bug fixes and new features.
+- [Quick Setup Guide · Nuxt SEO](/docs/nuxt-seo/guides/using-the-modules): A quick guide on which features are available on activating Nuxt SEO.
+- [v2 Beta to v2 RC · Nuxt SEO](/docs/nuxt-seo/migration-guide/beta-to-rc): Migrate from the Nuxt SEO v2 beta to the v2 RC.
+- [Nuxt SEO Kit to Nuxt SEO · Nuxt SEO](/docs/nuxt-seo/migration-guide/nuxt-seo-kit): Migrate from the nuxt-seo-kit package v1 to the new v2 @nuxtjs/seo.
+- [v2 RC to v2 Stable · Nuxt SEO](/docs/nuxt-seo/migration-guide/rc-to-stable): Migrate from the Nuxt SEO v2 RC to the v2 stable.
+- [Claude Code Plugin · Nuxt Nuxt SEO Pro · Nuxt SEO](/docs/nuxt-seo-pro/ai/claude-code-plugin): SEO-focused writing skills for Claude Code. Research keywords, write docs, create diagrams, and avoid AI slop.
+- [Install Nuxt SEO Pro · Nuxt Nuxt SEO Pro · Nuxt SEO](/docs/nuxt-seo-pro/getting-started/installation): Get the Pro modules running locally in minutes. Free to try—license required for production.
+- [Nuxt SEO Pro · Nuxt Nuxt SEO Pro · Nuxt SEO](/docs/nuxt-seo-pro/getting-started/introduction): The futures SEO modules for todays Nuxters. Handle llms.txt, MCP, and version skew for your Nuxt site.
+- [Introduction: Pro SEO MCP · Nuxt Nuxt SEO Pro · Nuxt SEO](/docs/nuxt-seo-pro/mcp): MCP server with AI-powered SEO tools for Claude, Cursor, and other LLMs. Access Google Search Console data, analyze pages, research keywords, generate schema.or...
+- [AI Keyword Research Tools · Nuxt Nuxt SEO Pro · Nuxt SEO](/docs/nuxt-seo-pro/mcp/content-intelligence): MCP tools for keyword research and SERP analysis. Find long-tail keywords, analyze competition, and discover content gaps—through your AI assistant.
+- [AI Page Analysis Tools · Nuxt Nuxt SEO Pro · Nuxt SEO](/docs/nuxt-seo-pro/mcp/dev-assist-tools): MCP tools for AI-powered SEO analysis. Scan Vue and markdown files for issues, generate schema.org code, create OG image templates—through any MCP client.
+- [Domain & Traffic Tools · Nuxt Nuxt SEO Pro · Nuxt SEO](/docs/nuxt-seo-pro/mcp/domain-tools): MCP tools for domain availability, traffic estimation, and competitor analysis. Research domains, size competitors, and discover keyword gaps.
+- [Google Search Console Tools · Nuxt Nuxt SEO Pro · Nuxt SEO](/docs/nuxt-seo-pro/mcp/gsc-tools): MCP tools for Google Search Console data. Get real performance metrics, identify SEO opportunities, and manage sitemaps—through your AI assistant.
+- [MCP Installation · Nuxt Nuxt SEO Pro · Nuxt SEO](/docs/nuxt-seo-pro/mcp/installation): Add the Nuxt SEO Pro MCP server to Claude Desktop, Claude Code, or Cursor. One config file change and your AI assistant gains SEO tools.
+- [SEO Audit & Content Prompts · Nuxt Nuxt SEO Pro · Nuxt SEO](/docs/nuxt-seo-pro/mcp/prompts): Pre-built MCP prompts for SEO audits and content creation. Run site-wide audits, analyze specific pages, generate article outlines—through any MCP client.
+- [Components · Nuxt OG Image · Nuxt SEO](/docs/og-image/api/components): Components that are included with the module, including OgImage and OgImageScreenshot.
+- [Nuxt Config · Nuxt OG Image · Nuxt SEO](/docs/og-image/api/config): The Nuxt OG Image module configuration.
+- [defineOgImage() · Nuxt OG Image · Nuxt SEO](/docs/og-image/api/define-og-image): Define an og:image for the current page.
+- [defineOgImageComponent() · Nuxt OG Image · Nuxt SEO](/docs/og-image/api/define-og-image-component): Define an og:image for the current page with type safety.
+- [defineOgImageScreenshot() · Nuxt OG Image · Nuxt SEO](/docs/og-image/api/define-og-image-screenshot): Define an OG Image that takes a screenshot of the page.
+- [Nuxt Hooks · Nuxt OG Image · Nuxt SEO](/docs/og-image/api/nuxt-hooks): Hook into the Nuxt OG Image build-time and runtime behaviour.
+- [Tutorial: Your first OG Image · Nuxt OG Image · Nuxt SEO](/docs/og-image/getting-started/getting-familiar-with-nuxt-og-image): Get started with the module by setting up your first og:image on your home page.
+- [Install Nuxt OG Image · Nuxt OG Image · Nuxt SEO](/docs/og-image/getting-started/installation): Get started with Nuxt OG Image by installing the dependency to your project.
+- [Nuxt OG Image · Nuxt SEO](/docs/og-image/getting-started/introduction): Generate OG Images with Vue templates in Nuxt.
+- [Troubleshooting Nuxt OG Image · Nuxt OG Image · Nuxt SEO](/docs/og-image/getting-started/troubleshooting): Create minimal reproductions for Nuxt OG Image or just experiment with the module.
+- [Caching Images · Nuxt OG Image · Nuxt SEO](/docs/og-image/guides/cache): Getting to know how the Caching works with Nuxt OG Image.
+- [Community Templates · Nuxt OG Image · Nuxt SEO](/docs/og-image/guides/community-templates): Community templates that are included with the module, including NuxtSeo.
+- [Compatibility · Nuxt OG Image · Nuxt SEO](/docs/og-image/guides/compatibility): This page has moved to Renderers.
+- [Custom Fonts · Nuxt OG Image · Nuxt SEO](/docs/og-image/guides/custom-fonts): Using custom fonts in your OG Images.
+- [Emojis · Nuxt OG Image · Nuxt SEO](/docs/og-image/guides/emojis): Use emojis in your OG Images.
+- [Error pages · Nuxt OG Image · Nuxt SEO](/docs/og-image/guides/error-pages): How to display og images for error pages
+- [Icons and Images · Nuxt OG Image · Nuxt SEO](/docs/og-image/guides/icons-and-images): How to use icons and images in your templates.
+- [JPEGs · Nuxt OG Image · Nuxt SEO](/docs/og-image/guides/jpegs): Learn how to generate JPEG images instead of PNG for Nuxt OG Image.
+- [Non-English Locales · Nuxt OG Image · Nuxt SEO](/docs/og-image/guides/non-english-locales): How to use the Nuxt OG Image module with non-english locales.
+- [Route Rules · Nuxt OG Image · Nuxt SEO](/docs/og-image/guides/route-rules): Learn how to use route rules to customise your OG Image.
+- [Styling · Nuxt OG Image · Nuxt SEO](/docs/og-image/guides/styling): How to style your OG Images.
+- [WhatsApp & Multiple Images · Nuxt OG Image · Nuxt SEO](/docs/og-image/guides/whatsapp): Generate multiple OG images per page for different platforms like WhatsApp.
+- [Zero Runtime · Nuxt OG Image · Nuxt SEO](/docs/og-image/guides/zero-runtime): Create OG Images without the server runtime overhead.
+- [Nuxt Color Mode · Nuxt OG Image · Nuxt SEO](/docs/og-image/integrations/color-mode): How to use the Nuxt OG Image module with Nuxt Color Mode.
+- [Nuxt Content · Nuxt OG Image · Nuxt SEO](/docs/og-image/integrations/content): How to use the Nuxt OG Image module with Nuxt Content.
+- [Nuxt I18n · Nuxt OG Image · Nuxt SEO](/docs/og-image/integrations/i18n): How to use the Nuxt OG Image module with @nuxtjs/i18n.
+- [v2 to v3 · Nuxt OG Image · Nuxt SEO](/docs/og-image/migration-guide/v3): Migrate Nuxt OG Image v2 to Nuxt OG Image v3.
+- [v5 to v6 · Nuxt OG Image · Nuxt SEO](/docs/og-image/migration-guide/v6): Migrate Nuxt OG Image v5 to Nuxt OG Image v6.
+- [Nitro Hooks · Nuxt OG Image · Nuxt SEO](/docs/og-image/nitro-api/nitro-hooks): Hook into the Nuxt OG Image runtime.
+- [v2.0.0 · Nuxt OG Image · Nuxt SEO](/docs/og-image/releases/v2): Stable release with runtime images, custom fonts, and improved caching.
+- [v3.0.0 · Nuxt OG Image · Nuxt SEO](/docs/og-image/releases/v3): Release notes for Nuxt OG Image v3.
+- [v4.0.0 · Nuxt OG Image · Nuxt SEO](/docs/og-image/releases/v4): Release notes for Nuxt OG Image v4.
+- [v5.0.0 · Nuxt OG Image · Nuxt SEO](/docs/og-image/releases/v5): Release notes for Nuxt OG Image v5.
+- [Renderers · Nuxt OG Image · Nuxt SEO](/docs/og-image/renderers): Choose the right renderer for your OG images.
+- [Browser Renderer · Nuxt OG Image · Nuxt SEO](/docs/og-image/renderers/browser): Learn how, when and why to use the Browser renderer.
+- [Satori Renderer · Nuxt OG Image · Nuxt SEO](/docs/og-image/renderers/satori): Learn how to use the Satori renderer.
+- [Takumi Renderer · Nuxt OG Image · Nuxt SEO](/docs/og-image/renderers/takumi): Learn how to use the Takumi renderer for faster OG image generation.
+- [Components · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/api/components): Components that are included with the module, including OgImage and OgImageScreenshot.
+- [Nuxt Config · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/api/config): The Nuxt OG Image module configuration.
+- [defineOgImage() · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/api/define-og-image): Define an og:image for the current page.
+- [defineOgImageComponent() · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/api/define-og-image-component): Define an og:image for the current page with type safety.
+- [defineOgImageScreenshot() · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/api/define-og-image-screenshot): Define an OG Image that takes a screenshot of the page.
+- [Nuxt Hooks · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/api/nuxt-hooks): Hook into the Nuxt OG Image build-time behaviour.
+- [Tutorial: Your first OG Image · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/getting-started/getting-familar-with-nuxt-og-image): Get started with the module by setting up your first og:image on your home page.
+- [Install Nuxt OG Image · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/getting-started/installation): Get started with Nuxt OG Image by installing the dependency to your project.
+- [Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/getting-started/introduction): Generate OG Images with Vue templates in Nuxt.
+- [Troubleshooting Nuxt OG Image · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/getting-started/troubleshooting): Create minimal reproductions for Nuxt OG Image or just experiment with the module.
+- [Caching Images · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/guides/cache): Getting to know how the Caching works with Nuxt OG Image.
+- [Chromium Renderer · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/guides/chromium): Learn how, when and why to use the Chromium renderer.
+- [Community Templates · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/guides/community-templates): Community templates that are included with the module, including NuxtSeo.
+- [Compatibility · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/guides/compatibility): Learn what environments can use what features.
+- [Fonts · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/guides/custom-fonts): Using custom fonts in your OG Images.
+- [Emojis · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/guides/emojis): Use emojis in your OG Images.
+- [Error pages · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/guides/error-pages): How to display og images for error pages
+- [Icons and Images · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/guides/icons-and-images): How to use icons and images in your templates.
+- [JPEGs · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/guides/jpegs): Learn how to generate JPEG images instead of PNG for Nuxt OG Image.
+- [Non-English Locales · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/guides/non-english-locales): How to use the Nuxt OG Image module with non-english locales.
+- [Route Rules · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/guides/route-rules): Learn how to use route rules to customise your OG Image.
+- [Satori Renderer · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/guides/satori): Learn how to use the Satori renderer.
+- [Styling · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/guides/styling): How to style your OG Images.
+- [Zero Runtime · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/guides/zero-runtime): Create OG Images without the server runtime overhead.
+- [Nuxt Color Mode · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/integrations/color-mode): How to use the Nuxt OG Image module with Nuxt Color Mode.
+- [Nuxt Content · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/integrations/content): How to use the Nuxt OG Image module with Nuxt Content.
+- [v2 to v3 · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/migration-guide/v3): Migrate Nuxt OG Image v2 to Nuxt OG Image v3.
+- [Nitro Hooks · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/nitro-api/nitro-hooks): Hook into the Nuxt OG Image runtime.
+- [v2.0.0 · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/releases/v2)
+- [v3.0.0 · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/releases/v3): Release notes for Nuxt OG Image v3.
+- [v4.0.0 · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/releases/v4): Release notes for Nuxt OG Image v4.
+- [v5.0.0 · Nuxt OG Image · Nuxt SEO](/docs/og-image/v5/releases/v5): Release notes for Nuxt OG Image v5.
+- [Nuxt Content · Nuxt Robots · Nuxt SEO](/docs/robots/advanced/content): How to use the Nuxt Robots module with Nuxt Content.
+- [Nuxt I18n · Nuxt Robots · Nuxt SEO](/docs/robots/advanced/i18n): How to use the Nuxt Robots module with Nuxt I18n.
+- [Yandex: Clean-param · Nuxt Robots · Nuxt SEO](/docs/robots/advanced/yandex): Learn how to use the `clean-param` directive to remove query parameters from URLs with Yandex.
+- [Nuxt Config · Nuxt Robots · Nuxt SEO](/docs/robots/api/config): Learn how to configure Nuxt Robots using nuxt.config.
+- [Nuxt Hooks · Nuxt Robots · Nuxt SEO](/docs/robots/api/nuxt-hooks): Learn how to use Nuxt hooks to modify the robots config.
+- [useBotDetection() · Nuxt Robots · Nuxt SEO](/docs/robots/api/use-bot-detection): A reactive composable for detecting and classifying bots with optional client-side fingerprinting.
+- [useRobotsRule() · Nuxt Robots · Nuxt SEO](/docs/robots/api/use-robots-rule): A reactive way to access and set the robots rule.
+- [Install Nuxt Robots · Nuxt Robots · Nuxt SEO](/docs/robots/getting-started/installation): Get started with Nuxt Robots by installing the dependency to your project.
+- [Nuxt Robots · Nuxt SEO](/docs/robots/getting-started/introduction): Nuxt Robots manages the robots crawling your site with minimal config and best practice defaults.
+- [Troubleshooting Nuxt Robots · Nuxt Robots · Nuxt SEO](/docs/robots/getting-started/troubleshooting): Debug Nuxt Robots issues using DevTools, config options, and minimal reproductions.
+- [AI Directives · Nuxt Robots · Nuxt SEO](/docs/robots/guides/ai-directives): Control how AI systems interact with your content using Content-Usage and Content-Signal directives.
+- [Bot Detection · Nuxt Robots · Nuxt SEO](/docs/robots/guides/bot-detection): Detect and classify bots with server-side header analysis and client-side browser fingerprinting.
+- [Disabling Site Indexing · Nuxt Robots · Nuxt SEO](/docs/robots/guides/disable-indexing): Learn how to disable indexing for different environments and conditions to avoid crawling issues.
+- [Disable Page Indexing · Nuxt Robots · Nuxt SEO](/docs/robots/guides/disable-page-indexing): Learn how to disable indexing for specific pages on your app.
+- [How Nuxt Robots Works · Nuxt Robots · Nuxt SEO](/docs/robots/guides/how-it-works): Learn more about how Nuxt Robots works.
+- [Config using Nuxt Config · Nuxt Robots · Nuxt SEO](/docs/robots/guides/nuxt-config): Learn how to configure the module programmatically using nuxt.config.
+- [Robots.txt Recipes · Nuxt Robots · Nuxt SEO](/docs/robots/guides/robot-recipes): Common robots.txt patterns including blocking bad bots, AI crawlers, and search results.
+- [Config using Robots.txt · Nuxt Robots · Nuxt SEO](/docs/robots/guides/robots-txt): Configure your generated robots.txt file with a robots.txt file.
+- [Config Using Route Rules · Nuxt Robots · Nuxt SEO](/docs/robots/guides/route-rules): Learn how to configure robots through route rules.
+- [getBotDetection() · Nuxt Robots · Nuxt SEO](/docs/robots/nitro-api/get-bot-detection): Server-side composable to access bot detection state in Nitro routes and middleware.
+- [getPathRobotConfig() · Nuxt Robots · Nuxt SEO](/docs/robots/nitro-api/get-path-robot-config): See if the Site is indexable within Nitro.
+- [getSiteRobotConfig() · Nuxt Robots · Nuxt SEO](/docs/robots/nitro-api/get-site-robot-config): See if the Site is indexable within Nitro.
+- [Nitro Hooks · Nuxt Robots · Nuxt SEO](/docs/robots/nitro-api/nitro-hooks): Learn how to use Nitro hooks to modify the robots final output.
+- [v3.0.0 · Nuxt Robots · Nuxt SEO](/docs/robots/releases/v3): Release notes for Nuxt Robots v3.0.0.
+- [v4.0.0 · Nuxt Robots · Nuxt SEO](/docs/robots/releases/v4): Release notes for Nuxt Robots v4.0.0.
+- [v5.0.0 · Nuxt Robots · Nuxt SEO](/docs/robots/releases/v5): Release notes for Nuxt Robots v5.0.0.
+- [Nuxt Config · Nuxt Schema.org · Nuxt SEO](/docs/schema-org/api/config): Configure the Nuxt Schema.org module.
+- [Nuxt Hooks · Nuxt Schema.org · Nuxt SEO](/docs/schema-org/api/nuxt-hooks): Learn how to use Nuxt hooks to modify your Schema.org output.
+- [useSchemaOrg() · Nuxt Schema.org · Nuxt SEO](/docs/schema-org/api/use-schema-org): Define Schema.org structured data for your pages using the useSchemaOrg composable.
+- [Install Nuxt Schema.org · Nuxt Schema.org · Nuxt SEO](/docs/schema-org/getting-started/installation): Get started with Nuxt Schema.org by installing the dependency to your project.
+- [Nuxt Schema.org · Nuxt SEO](/docs/schema-org/getting-started/introduction): The quickest and easiest way to build Schema.org graphs for Nuxt.
+- [Troubleshooting Nuxt Schema.org · Nuxt Schema.org · Nuxt SEO](/docs/schema-org/getting-started/troubleshooting): Create minimal reproductions for Nuxt Schema.org or just experiment with the module.
+- [Nuxt Content · Nuxt Schema.org · Nuxt SEO](/docs/schema-org/guides/content): How to use the Nuxt Schema.org module with Nuxt Content.
+- [Default Schema.org · Nuxt Schema.org · Nuxt SEO](/docs/schema-org/guides/default-schema-org): The default Schema.org setup for Nuxt Schema.org.
+- [Full Documentation · Nuxt Schema.org · Nuxt SEO](/docs/schema-org/guides/full-documentation): Links to the full unhead-schema-org documentation for advanced usage.
+- [How It Works · Nuxt Schema.org · Nuxt SEO](/docs/schema-org/guides/how-it-works): Learn more about how Nuxt Schema.org works.
+- [Nuxt I18n · Nuxt Schema.org · Nuxt SEO](/docs/schema-org/guides/i18n): How to use the Nuxt Schema.org module with Nuxt I18n.
+- [Supported Nodes · Nuxt Schema.org · Nuxt SEO](/docs/schema-org/guides/nodes): The nodes available for Nuxt Schema.org.
+- [Setup Identity · Nuxt Schema.org · Nuxt SEO](/docs/schema-org/guides/setup-identity): Improve your Schema.org by providing the identity of your site.
+- [v3.0.0 · Nuxt Schema.org · Nuxt SEO](/docs/schema-org/releases/v3): Release notes for v3.0.0 of Nuxt Schema.org.
+- [v4.0.0 · Nuxt Schema.org · Nuxt SEO](/docs/schema-org/releases/v4): Release notes for v4.0.0 of Nuxt Schema.org.
+- [v5.0.0 · Nuxt Schema.org · Nuxt SEO](/docs/schema-org/releases/v5): Release notes for Nuxt Schema.org v5.
+- [useBreadcrumbItems() · Nuxt SEO Utils · Nuxt SEO](/docs/seo-utils/api/breadcrumbs): A composable used to display a breadcrumb list that helps users to navigate between pages.
+- [Config · Nuxt SEO Utils · Nuxt SEO](/docs/seo-utils/api/config): Configuration options for Nuxt SEO Utils module.
+- [Install Nuxt SEO Utils · Nuxt SEO Utils · Nuxt SEO](/docs/seo-utils/getting-started/installation): Get started with Nuxt SEO Utils by installing the dependency to your project.
+- [Nuxt SEO Utils · Nuxt SEO](/docs/seo-utils/getting-started/introduction): SEO utilities to improve your Nuxt sites discoverability and shareability.
+- [Troubleshooting Nuxt SEO Utils · Nuxt SEO Utils · Nuxt SEO](/docs/seo-utils/getting-started/troubleshooting): Create minimal reproductions for Nuxt SEO Utils or just experiment with the module.
+- [App Icons · Nuxt SEO Utils · Nuxt SEO](/docs/seo-utils/guides/app-icons): Learn how metadata files work with logos.
+- [Canonical URL · Nuxt SEO Utils · Nuxt SEO](/docs/seo-utils/guides/canonical-url): Ensure a canonical URL is set to avoid duplicate content issues.
+- [Best Practice Default Meta · Nuxt SEO Utils · Nuxt SEO](/docs/seo-utils/guides/default-meta): The default meta tags Nuxt SEO sets for you.
+- [Enhanced Titles · Nuxt SEO Utils · Nuxt SEO](/docs/seo-utils/guides/fallback-title): How Nuxt SEO enhances your page titles.
+- [I18n & Localization · Nuxt SEO Utils · Nuxt SEO](/docs/seo-utils/guides/i18n): How Nuxt SEO Utils handles language and locale configuration.
+- [Nuxt Config SEO Meta · Nuxt SEO Utils · Nuxt SEO](/docs/seo-utils/guides/nuxt-config-seo-meta): Make use of the power of useSeoMeta inside your nuxt.config.
+- [Open Graph Images · Nuxt SEO Utils · Nuxt SEO](/docs/seo-utils/guides/open-graph-images): Automatically set meta tags for Open Graph images.
+- [SEO Route Rules · Nuxt SEO Utils · Nuxt SEO](/docs/seo-utils/guides/route-rules): Utilise route rules for dynamic SEO meta tags.
+- [v3.0.0 · Nuxt SEO Utils · Nuxt SEO](/docs/seo-utils/releases/v3): Release notes for v3.0.0 - Next.js inspired metadata files.
+- [v4.0.0 · Nuxt SEO Utils · Nuxt SEO](/docs/seo-utils/releases/v4): Release notes for v4.0.0 - Dark/light mode icons support.
+- [v5.0.0 · Nuxt SEO Utils · Nuxt SEO](/docs/seo-utils/releases/v5): Release notes for v5.0.0 - Module renamed to Nuxt SEO Utils.
+- [v6.0.0 · Nuxt SEO Utils · Nuxt SEO](/docs/seo-utils/releases/v6): Release notes for v6.0.0 of Nuxt SEO Utils.
+- [v7.0.0 · Nuxt SEO Utils · Nuxt SEO](/docs/seo-utils/releases/v7): Release notes for v7.0.0 of Nuxt SEO Utils.
+- [Nuxt Config · Nuxt Site Config · Nuxt SEO](/docs/site-config/api/config): The config options available for Nuxt Site Config.
+- [createSitePathResolver() · Nuxt Site Config · Nuxt SEO](/docs/site-config/api/create-site-path-resolver): Create a function to resolve a path relative to the site.
+- [getNitroOrigin() · Nuxt Site Config · Nuxt SEO](/docs/site-config/api/get-nitro-origin): Get the runtime origin URL safely across development, prerendering, and production environments.
+- [Nuxt Hooks · Nuxt Site Config · Nuxt SEO](/docs/site-config/api/nuxt-hooks): Learn how to use Nuxt Hooks to customize your site config.
+- [updateSiteConfig() · Nuxt Site Config · Nuxt SEO](/docs/site-config/api/update-site-config): Learn how to modify site config at runtime.
+- [useSiteConfig() · Nuxt Site Config · Nuxt SEO](/docs/site-config/api/use-site-config): How to access site config within a Nuxt context.
+- [Install Nuxt Site Config · Nuxt Site Config · Nuxt SEO](/docs/site-config/getting-started/installation): Get started with Nuxt Site Config by installing the dependency to your project.
+- [Introduction · Nuxt Site Config · Nuxt SEO](/docs/site-config/getting-started/introduction): Learn about the motivation behind Nuxt Site Config and a bit about how it works.
+- [Troubleshooting Nuxt Site Config · Nuxt Site Config · Nuxt SEO](/docs/site-config/getting-started/troubleshooting): Debug Nuxt Site Config issues using DevTools, config options, and minimal reproductions.
+- [How it works · Nuxt Site Config · Nuxt SEO](/docs/site-config/guides/how-it-works): Learn how the Nuxt Site Config module works, so you can get the most out of it.
+- [Nuxt I18n · Nuxt Site Config · Nuxt SEO](/docs/site-config/guides/i18n): How to use the Nuxt Site Config module with Nuxt I18n.
+- [Multi-Tenancy · Nuxt Site Config · Nuxt SEO](/docs/site-config/guides/multi-tenancy): Learn how to serve multiple sites with different configurations based on the hostname.
+- [Runtime Site Config · Nuxt Site Config · Nuxt SEO](/docs/site-config/guides/runtime-site-config): Learn how to set site config at runtime in your Nuxt app.
+- [Recommended Config · Nuxt Site Config · Nuxt SEO](/docs/site-config/guides/setting-site-config): Learn how to set site config in your Nuxt app.
+- [createSitePathResolver() · Nuxt Site Config · Nuxt SEO](/docs/site-config/nitro-api/create-site-path-resolver): Create a function to resolve a path relative to the site within Nitro.
+- [getNitroOrigin() · Nuxt Site Config · Nuxt SEO](/docs/site-config/nitro-api/get-nitro-origin): Get the runtime origin URL safely within Nitro server handlers.
+- [getSiteIndexable() · Nuxt Site Config · Nuxt SEO](/docs/site-config/nitro-api/get-site-indexable): Check if the current site is indexable within Nitro.
+- [Nitro Hooks · Nuxt Site Config · Nuxt SEO](/docs/site-config/nitro-api/nitro-hooks): Learn how to use Nitro Hooks to customize your site config.
+- [updateSiteConfig() · Nuxt Site Config · Nuxt SEO](/docs/site-config/nitro-api/update-site-config): How to update Site Config within Nitro.
+- [useSiteConfig() · Nuxt Site Config · Nuxt SEO](/docs/site-config/nitro-api/use-site-config): How to use Site Config within Nitro.
+- [v3.0.0 · Nuxt Site Config · Nuxt SEO](/docs/site-config/releases/v3): Release notes for v3.0.0.
+- [Sitemap Chunking · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/advanced/chunking-sources): Split large sitemap sources into multiple files for performance and search engine limits.
+- [Customising the UI · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/advanced/customising-ui): Change the look and feel of your sitemap.
+- [Images, Videos, News · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/advanced/images-videos): Learn how to add images, videos and news in your sitemap.
+- [Lastmod, Priority, and Changefreq · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/advanced/loc-data): Configure lastmod, priority, and changefreq values for your sitemap entries.
+- [Sitemap Performance · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/advanced/performance): Use the default cache engine to keep your sitemaps fast.
+- [Config · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/api/config): Configure the sitemap module.
+- [Nuxt Hooks · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/api/nuxt-hooks): Build-time Nuxt hooks provided by @nuxtjs/sitemap.
+- [Data Sources · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/getting-started/data-sources): Understand where your sitemap URLs come from.
+- [Install Nuxt Sitemap · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/getting-started/installation): Get started with Nuxt Sitemap by installing the dependency to your project.
+- [Nuxt Sitemap · Nuxt SEO](/docs/sitemap/getting-started/introduction): Powerfully flexible XML Sitemaps that integrate seamlessly, for Nuxt.
+- [Troubleshooting Nuxt Sitemap · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/getting-started/troubleshooting): Common issues and debugging tips for Nuxt Sitemap.
+- [Sitemap.xml Best Practices · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/guides/best-practices): The best practices for generating a sitemap.xml file.
+- [Nuxt Content · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/guides/content): How to use the Nuxt Sitemap module with Nuxt Content.
+- [Dynamic URL Endpoints · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/guides/dynamic-urls): Use runtime API endpoints to generate dynamic URLs for your sitemap.
+- [Disabling Indexing · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/guides/filtering-urls): How to filter the URLs generated from application sources.
+- [I18n · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/guides/i18n): Setting up a sitemap with Nuxt I18n and Nuxt I18n Micro.
+- [Multi Sitemaps · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/guides/multi-sitemaps): Generate multiple sitemaps for different sections of your site.
+- [Nuxt Prerendering · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/guides/prerendering): Prerender your pages and have them all automatically added to your sitemap.
+- [Submitting Your Sitemap · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/guides/submitting-sitemap): How to submit your sitemap to Google Search Console to start getting indexed.
+- [Zero Runtime · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/guides/zero-runtime): Generate sitemaps at build time without runtime overhead.
+- [Nitro Hooks · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/nitro-api/nitro-hooks): Learn how to use Nitro Hooks to customize your sitemap entries.
+- [v3.0.0 · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/releases/v3): Release notes for v3.0.0.
+- [Nuxt Sitemap v4.0.0 · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/releases/v4): Release notes for v4.0.0 of Nuxt Sitemap.
+- [Nuxt Sitemap v5.0.0 · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/releases/v5): Release notes for v5.0.0 of Nuxt Sitemap.
+- [Nuxt Sitemap v6.0.0 · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/releases/v6): Release notes for v6.0.0 of Nuxt Sitemap.
+- [Nuxt Sitemap v7.0.0 · Nuxt Sitemap · Nuxt SEO](/docs/sitemap/releases/v7): Release notes for v7.0.0 of Nuxt Sitemap.
+- [Configuration · Nuxt Skew Protection · Nuxt SEO](/docs/skew-protection/api/config): Complete configuration reference for Nuxt Skew Protection.
+- [Nuxt Hooks · Nuxt Skew Protection · Nuxt SEO](/docs/skew-protection/api/nuxt-hooks): Learn how to use Nuxt hooks to respond to skew protection events.
+- [<SkewNotification> · Nuxt Skew Protection · Nuxt SEO](/docs/skew-protection/api/skew-notification): Headless component for displaying update notifications.
+- [useActiveConnections() · Nuxt Skew Protection · Nuxt SEO](/docs/skew-protection/api/use-active-connections): Composable for monitoring real-time connection statistics and version distribution.
+- [useSkewProtection() · Nuxt Skew Protection · Nuxt SEO](/docs/skew-protection/api/use-skew-protection): Composable for accessing skew protection state and methods.
+- [Install Nuxt Skew Protection · Nuxt Skew Protection · Nuxt SEO](/docs/skew-protection/getting-started/installation): Get started with Nuxt Skew Protection by installing the dependency to your project.
+- [Introduction · Nuxt Skew Protection · Nuxt SEO](/docs/skew-protection/getting-started/introduction): Eliminate version skew issues in your Nuxt application with intelligent update notifications and long-lived build assets.
+- [Cookie Consent · Nuxt Skew Protection · Nuxt SEO](/docs/skew-protection/guides/cookie-consent): Information about cookie consent requirements for using Nuxt Skew Protection.
+- [Update Notifications · Nuxt Skew Protection · Nuxt SEO](/docs/skew-protection/guides/immediate-updates): React to version updates using useSkewProtection() composable.
+- [View Active Connections · Nuxt Skew Protection · Nuxt SEO](/docs/skew-protection/guides/live-connections): Monitor active connections and version distribution in real-time.
+- [Performance · Nuxt Skew Protection · Nuxt SEO](/docs/skew-protection/guides/performance): Optimize skew protection for high-traffic applications.
+- [Tracking User Pages · Nuxt Skew Protection · Nuxt SEO](/docs/skew-protection/guides/route-tracking): Monitor which pages users are viewing and invalidate specific routes.
+- [Persistent Storage · Nuxt Skew Protection · Nuxt SEO](/docs/skew-protection/guides/storage-configuration): Configure persistent storage for build assets across deployments.
+- [Notification UI · Nuxt Skew Protection · Nuxt SEO](/docs/skew-protection/guides/ui-examples): Example implementations of update notifications using the SkewNotification component.
+- [Check for Update Strategy · Nuxt Skew Protection · Nuxt SEO](/docs/skew-protection/guides/update-strategies): Choose the best update detection strategy for your platform.
+- [isClientOutdated() · Nuxt Skew Protection · Nuxt SEO](/docs/skew-protection/nitro-api/is-client-outdated): Server-side utility to check if a client's version is outdated.
+- [Nitro Hooks · Nuxt Skew Protection · Nuxt SEO](/docs/skew-protection/nitro-api/nitro-hooks): Learn how to use Nitro hooks to track and respond to real-time connections.
+- [Cloudflare · Nuxt Skew Protection · Nuxt SEO](/docs/skew-protection/providers/cloudflare): Configure Nuxt Skew Protection for Cloudflare Workers, Pages, and NuxtHub.
+- [External Providers · Nuxt Skew Protection · Nuxt SEO](/docs/skew-protection/providers/external): Use third-party WebSocket providers for real-time update notifications on any platform.
+- [Control Web Crawlers and Crawl Budget in Nuxt · Nuxt SEO](/learn-seo/nuxt/controlling-crawlers): Manage how search engines crawl and index your Nuxt app. Configure robots.txt, sitemaps, canonical URLs, and redirects for better SEO.
+- [Canonical URLs in Nuxt · Nuxt SEO](/learn-seo/nuxt/controlling-crawlers/canonical-urls): Canonical URLs tell search engines which version of a page to index when duplicate content exists. Here's how to set them up in Nuxt.
+- [llms.txt for Nuxt Sites · Nuxt SEO](/learn-seo/nuxt/controlling-crawlers/llms-txt): Help AI assistants understand your Nuxt documentation with the llms.txt standard. Configure nuxt-llms for automatic generation.
+- [Meta Robots Tags in Nuxt · Nuxt SEO](/learn-seo/nuxt/controlling-crawlers/meta-tags): Control page-level indexing with meta robots tags. Block search results pages, manage pagination, and prevent duplicate content in Nuxt apps.
+- [HTTP Redirects for SEO in Nuxt · Nuxt SEO](/learn-seo/nuxt/controlling-crawlers/redirects): 301 redirects preserve SEO value when content moves. Nuxt handles server-side redirects through routeRules to pass link equity and maintain rankings.
+- [Robots Txt · Nuxt SEO](/learn-seo/nuxt/controlling-crawlers/robots-txt)
+- [Sitemaps in Nuxt · Nuxt SEO](/learn-seo/nuxt/controlling-crawlers/sitemaps): Generate sitemaps for Nuxt with the @nuxtjs/sitemap module or server routes for dynamic content.
+- [Launching and Monitoring Your Nuxt Site · Nuxt SEO](/learn-seo/nuxt/launch-and-listen): Submit sitemap to Search Console, verify indexing, monitor rankings and AI visibility. Complete post-launch SEO workflow for Nuxt in 2026.
+- [Optimizing Nuxt Content for AI Search · Nuxt SEO](/learn-seo/nuxt/launch-and-listen/ai-optimized-content): Make your Nuxt site visible in AI Overviews, ChatGPT, and other generative search engines with structured data and content strategies in 2026.
+- [Nuxt SEO Checklist · Nuxt SEO](/learn-seo/nuxt/launch-and-listen/checklist): Complete checklist for Nuxt SEO. Pre-launch setup, post-launch verification, and ongoing monitoring. Links to detailed guides for every step.
+- [Core Web Vitals in Nuxt · Nuxt SEO](/learn-seo/nuxt/launch-and-listen/core-web-vitals): Measure and optimize LCP, INP, and CLS in Nuxt apps to improve user experience and search rankings in 2026.
+- [Debug Nuxt SEO Issues · Nuxt SEO](/learn-seo/nuxt/launch-and-listen/debugging): Fix meta tags not rendering, hydration mismatches, and indexing problems in 2026. Chrome DevTools workflow and server-side debugging guide.
+- [Getting Your Nuxt Site Indexed · Nuxt SEO](/learn-seo/nuxt/launch-and-listen/going-live): How to get your Nuxt site crawled, indexed, and cited in AI Overviews for the first time.
+- [Debug Indexing Issues in Google Search Console · Nuxt SEO](/learn-seo/nuxt/launch-and-listen/indexing-issues): Fix &quot;crawled currently not indexed&quot; and other GSC coverage errors affecting your Nuxt site and AI visibility in 2026.
+- [IndexNow and Indexing APIs in Nuxt · Nuxt SEO](/learn-seo/nuxt/launch-and-listen/indexnow): Notify search engines instantly when content changes using IndexNow, Google Indexing API, and RequestIndexing in 2026.
+- [Set Up Google Search Console for Your Nuxt Site · Nuxt SEO](/learn-seo/nuxt/launch-and-listen/search-console): Verify ownership, submit sitemaps, and monitor indexing status and AI visibility using Google Search Console.
+- [SEO Monitoring Tools for Nuxt Sites · Nuxt SEO](/learn-seo/nuxt/launch-and-listen/seo-monitoring): Set up analytics, rank tracking, AI citation monitoring, and RUM to monitor your Nuxt site's search performance in 2026.
+- [Site Migration SEO for Nuxt Apps · Nuxt SEO](/learn-seo/nuxt/launch-and-listen/site-migration): Migrate domains, redesign URLs, or switch frameworks without losing search rankings or AI citations in 2026.
+- [Nuxt SEO Meta Tags Guide · Nuxt SEO](/learn-seo/nuxt/mastering-meta): Set up meta tags in Nuxt with useSeoMeta. Covers titles, descriptions, Open Graph, Twitter Cards, and Schema.org. with SSR patterns that actually get indexed.
+- [Meta Descriptions in Nuxt · Nuxt SEO](/learn-seo/nuxt/mastering-meta/descriptions): Meta descriptions get rewritten by Google 70% of the time anyway. Here's how to implement them properly in Nuxt using composables and let your content do the he...
+- [Social Sharing Meta Tags in Nuxt · Nuxt SEO](/learn-seo/nuxt/mastering-meta/open-graph): Configure Open Graph and Twitter Card meta tags for rich link previews on Facebook, X/Twitter, LinkedIn, Slack, and Discord.
+- [Rich Results in Nuxt · Nuxt SEO](/learn-seo/nuxt/mastering-meta/rich-results): Get rich results in Google search with Schema.org structured data. Learn which types still work after Google's 2023 FAQ/HowTo removals.
+- [JSON-LD Structured Data in Nuxt · Nuxt SEO](/learn-seo/nuxt/mastering-meta/schema-org): Learn how to implement Schema.org structured data in Nuxt. Get rich results in Google search with type-safe JSON-LD markup using the Nuxt Schema.org module.
+- [Slack Link Previews in Nuxt · Nuxt SEO](/learn-seo/nuxt/mastering-meta/slack): Configure Open Graph meta tags for Slack unfurl previews
+- [Page Titles in Nuxt · Nuxt SEO](/learn-seo/nuxt/mastering-meta/titles): Set dynamic page titles in Nuxt with useHead. Learn title templates, reactive titles, and SSR patterns that Google indexes correctly.
+- [Twitter Cards in Nuxt · Nuxt SEO](/learn-seo/nuxt/mastering-meta/twitter-cards): Configure Twitter/X Cards to control how your links appear when shared on Twitter with rich previews, images, and metadata.
+- [Nuxt Routing and SEO · Nuxt SEO](/learn-seo/nuxt/routes-and-rendering): URL patterns, rendering modes, and routing decisions that affect your Nuxt site's search rankings.
+- [404 Pages and SEO in Nuxt · Nuxt SEO](/learn-seo/nuxt/routes-and-rendering/404-pages): 404 errors don't hurt SEO, but soft 404s do. Learn proper HTTP status codes, custom 404 design, and crawl budget optimization for Nuxt applications.
+- [Dynamic Routes in Nuxt for SEO · Nuxt SEO](/learn-seo/nuxt/routes-and-rendering/dynamic-routes): How to use Nuxt's file-based dynamic routes, set per-route meta tags, and avoid duplicate content issues with URL parameters.
+- [Hreflang Tags in Nuxt · Nuxt SEO](/learn-seo/nuxt/routes-and-rendering/i18n): Set hreflang tags in Nuxt to tell search engines which language version to show users. Avoid duplicate content penalties across multilingual sites.
+- [Pagination SEO in Nuxt · Nuxt SEO](/learn-seo/nuxt/routes-and-rendering/pagination): How to implement SEO-friendly pagination in Nuxt using canonical tags, self-referencing URLs, and proper link structure.
+- [Query Parameters and SEO in Nuxt · Nuxt SEO](/learn-seo/nuxt/routes-and-rendering/query-parameters): Query parameters create duplicate content and waste crawl budget. Here's how to handle filters, sorting, and tracking params in Nuxt.
+- [Rendering for SEO in 2026: Hybrid, Islands, and Edge · Nuxt SEO](/learn-seo/nuxt/routes-and-rendering/rendering): How to use SSR, SSG, Nuxt Islands, and Edge-side rendering to optimize for indexing and INP.
+- [Protecting Nuxt Apps from Malicious Crawlers · Nuxt SEO](/learn-seo/nuxt/routes-and-rendering/security): Robots.txt is a polite suggestion. Malicious crawlers ignore it. Here's how to actually protect your Nuxt app.
+- [Trailing Slashes in Nuxt · Nuxt SEO](/learn-seo/nuxt/routes-and-rendering/trailing-slashes): Learn when to enable trailing slashes, how to configure NuxtLink, and the one-line Nuxt SEO setup.
+- [SEO-Friendly URLs in Nuxt · Nuxt SEO](/learn-seo/nuxt/routes-and-rendering/url-structure): Create search-optimized URLs using file-based routing. Learn slug formatting, parameter handling, and route patterns that improve rankings.
+- [Vue SEO Guide · Nuxt SEO](/learn-seo/vue): The complete 2026 guide to Vue.js SEO. Master AI-first optimization, Core Web Vitals, Vapor Mode performance, and meta tags with Unhead.
+- [Control Web Crawlers and Crawl Budget in Vue · Nuxt SEO](/learn-seo/vue/controlling-crawlers): Manage how search engines crawl and index your Vue app. Configure robots.txt, sitemaps, canonical URLs, and redirects for better SEO.
+- [Canonical URLs in Vue · Nuxt SEO](/learn-seo/vue/controlling-crawlers/canonical-urls): Canonical URLs tell search engines which version of a page to index when duplicate content exists. Here's how to set them up in Vue.
+- [llms.txt for Vue Sites · Nuxt SEO](/learn-seo/vue/controlling-crawlers/llms-txt): Help AI assistants understand your Vue documentation with the llms.txt standard. Learn the file format, implementation, and when it matters.
+- [How to Use Meta Robots Tags in Vue · Nuxt SEO](/learn-seo/vue/controlling-crawlers/meta-tags): Control page-level indexing with meta robots tags. Block search results pages, manage pagination, and prevent duplicate content in Vue apps.
+- [HTTP Redirects for SEO in Vue · Nuxt SEO](/learn-seo/vue/controlling-crawlers/redirects): 301 redirects preserve SEO value when content moves. Implement server-side redirects in Vue SSR to pass link equity and maintain rankings.
+- [Robots.txt in Vue · Nuxt SEO](/learn-seo/vue/controlling-crawlers/robots-txt): Robots.txt tells crawlers what they can access. Here's how to set it up in Vue.
+- [Create an XML Sitemap in Vue · Nuxt SEO](/learn-seo/vue/controlling-crawlers/sitemaps): Generate sitemaps for Vue SPAs using Vite plugins, server-side rendering, or build-time generation.
+- [Optimizing Vue Content for AI Search · Nuxt SEO](/learn-seo/vue/launch-and-listen/ai-optimized-content): Make your Vue site visible in AI Overviews, ChatGPT, and other generative search engines with structured data and content strategies.
+- [Vue SEO Checklist · Nuxt SEO](/learn-seo/vue/launch-and-listen/checklist): Complete checklist for Vue SEO. pre-launch setup, post-launch verification, and ongoing monitoring. Links to detailed guides for every step.
+- [Core Web Vitals for Vue Applications · Nuxt SEO](/learn-seo/vue/launch-and-listen/core-web-vitals): Measure and optimize LCP, INP, and CLS in Vue apps to improve user experience and search rankings.
+- [Debug Vue SEO Issues · Nuxt SEO](/learn-seo/vue/launch-and-listen/debugging): Fix meta tags not rendering, hydration mismatches, and indexing problems. Chrome DevTools workflow and GSC URL Inspection guide.
+- [Getting Your Vue Site Indexed · Nuxt SEO](/learn-seo/vue/launch-and-listen/going-live): How to get your Vue site crawled and indexed for the first time by Google.
+- [Debug Indexing Issues in Google Search Console · Nuxt SEO](/learn-seo/vue/launch-and-listen/indexing-issues): Fix &quot;crawled currently not indexed&quot; and other GSC coverage errors affecting your Vue site.
+- [IndexNow and Indexing APIs for Vue Sites · Nuxt SEO](/learn-seo/vue/launch-and-listen/indexnow): Notify search engines instantly when content changes using IndexNow, Google Indexing API, and RequestIndexing.
+- [Set Up Google Search Console for Your Vue Site · Nuxt SEO](/learn-seo/vue/launch-and-listen/search-console): Verify ownership, submit sitemaps, and monitor indexing status using Google Search Console.
+- [SEO Monitoring Tools for Vue Sites · Nuxt SEO](/learn-seo/vue/launch-and-listen/seo-monitoring): Set up analytics, rank tracking, and alerts to monitor your Vue site's search performance.
+- [Site Migration SEO for Vue Apps · Nuxt SEO](/learn-seo/vue/launch-and-listen/site-migration): Migrate domains, redesign URLs, or switch frameworks without losing search rankings.
+- [Vue SEO Meta Tags Guide · Nuxt SEO](/learn-seo/vue/mastering-meta): Set up meta tags in Vue 3 with Unhead. Covers titles, descriptions, Open Graph, Twitter Cards, and Schema.org with SSR patterns.
+- [Meta Descriptions in Vue · Nuxt SEO](/learn-seo/vue/mastering-meta/descriptions): Meta descriptions get rewritten by Google 70% of the time anyway. Here's how to implement them properly in Vue using composables and let your content do the hea...
+- [Migrating from vue-meta to Unhead · Nuxt SEO](/learn-seo/vue/mastering-meta/migrating-vue-meta): Step-by-step guide to migrate your Vue app from vue-meta to Unhead for Vue 3 compatibility and modern head management.
+- [Rich Results in Vue · Nuxt SEO](/learn-seo/vue/mastering-meta/rich-results): Get rich results in Google search with Schema.org structured data. Learn which types still work after Google's 2023 and 2026 removals.
+- [Add JSON-LD Structured Data in Vue · Nuxt SEO](/learn-seo/vue/mastering-meta/schema-org): Learn how to implement Schema.org structured data in Vue using Unhead. Get rich results in Google search with type-safe JSON-LD markup.
+- [Social Sharing Meta Tags in Vue · Nuxt SEO](/learn-seo/vue/mastering-meta/social-sharing): Configure Open Graph and Twitter Card meta tags for rich link previews on Facebook, X/Twitter, LinkedIn, Slack, and Discord.
+- [How to Set Page Titles in Vue · Nuxt SEO](/learn-seo/vue/mastering-meta/titles): Set dynamic page titles in Vue 3 with useHead. Learn title templates, reactive titles, and SSR patterns that Google indexes correctly.
+- [Vue Routing and SEO · Nuxt SEO](/learn-seo/vue/routes-and-rendering): URL structure and rendering mode determine whether search engines can crawl, index, and rank your Vue application.
+- [404 Pages and SEO in Vue · Nuxt SEO](/learn-seo/vue/routes-and-rendering/404-pages): 404 errors don't hurt SEO, but soft 404s do. Learn proper HTTP status codes, custom 404 design, and crawl budget optimization for Vue applications.
+- [Dynamic Routes in Vue for SEO · Nuxt SEO](/learn-seo/vue/routes-and-rendering/dynamic-routes): How to configure Vue Router dynamic route params, set per-route meta tags, and avoid duplicate content issues with URL parameters.
+- [Hreflang Tags in Vue · Nuxt SEO](/learn-seo/vue/routes-and-rendering/i18n): Set hreflang tags in Vue to tell search engines which language version to show users. Avoid duplicate content penalties across multilingual sites.
+- [Pagination SEO for Vue Applications · Nuxt SEO](/learn-seo/vue/routes-and-rendering/pagination): How to implement SEO-friendly pagination in Vue using canonical tags, self-referencing URLs, and proper link structure.
+- [Query Parameters and SEO in Vue · Nuxt SEO](/learn-seo/vue/routes-and-rendering/query-parameters): Query parameters create duplicate content and waste crawl budget. Here's how to handle filters, sorting, and tracking params in Vue Router.
+- [Rendering Modes: Hybrid, SSR, SSG & Edge · Nuxt SEO](/learn-seo/vue/routes-and-rendering/rendering): Master Hybrid Rendering, ISR, and Edge Rendering for optimal Vue SEO in 2026.
+- [Protecting Vue Apps from Malicious Crawlers · Nuxt SEO](/learn-seo/vue/routes-and-rendering/security): Robots.txt is a polite suggestion. Malicious crawlers ignore it. Here's how to actually protect your Vue app.
+- [Trailing Slashes in Vue · Nuxt SEO](/learn-seo/vue/routes-and-rendering/trailing-slashes): Trailing slashes can cause duplicate content issues. Here's how to handle them in Vue Router.
+- [SEO-Friendly URLs in Vue · Nuxt SEO](/learn-seo/vue/routes-and-rendering/url-structure): Create search-optimized URLs using Vue Router. Learn slug formatting, parameter handling, and route patterns that improve rankings.
+- [SEO for Single Page Applications (SPAs) · Nuxt SEO](/learn-seo/vue/spa): Why Vue SPAs struggle with search engines and how to fix it. Learn when you need SSR, when prerendering works, and when SPA is fine as-is.
+- [Dynamic Rendering (Deprecated) · Nuxt SEO](/learn-seo/vue/spa/dynamic-rendering): Dynamic rendering serves pre-rendered HTML to crawlers while users see JavaScript. Google no longer recommends this. use SSR or SSG instead.
+- [Hydration Mismatches and SEO in Vue · Nuxt SEO](/learn-seo/vue/spa/hydration): How hydration failures cause Google to index broken versions of your site. Debug mismatches, fix common causes, optimize with partial hydration.
+- [Prerendering Vue SPAs for SEO · Nuxt SEO](/learn-seo/vue/spa/prerendering): Build-time and on-demand prerendering for client-side Vue apps. How to get SPA performance with SSR indexing.
+- [Vue SSR Frameworks · Nuxt SEO](/learn-seo/vue/ssr-frameworks): Compare Vue server-side rendering frameworks. Choose between Nuxt, Quasar, Vite SSR, and VitePress for better SEO and performance.
+- [Nuxt vs Quasar for SEO · Nuxt SEO](/learn-seo/vue/ssr-frameworks/nuxt-vs-quasar): Nuxt dominates for SSR-first SEO. Quasar excels at cross-platform. Compare SSR capabilities, SEO features, and when to choose each.
+- [Custom Vite SSR for Vue: When to Roll Your Own · Nuxt SEO](/learn-seo/vue/ssr-frameworks/vite-ssr): Building server-side rendering with Vite instead of frameworks. When custom SSR makes sense and SEO considerations.
+- [VitePress SEO Guide · Nuxt SEO](/learn-seo/vue/ssr-frameworks/vitepress): VitePress offers built-in SEO features like sitemap generation, meta tags, and fast static site generation for documentation and blogs.
+- [Pro · Nuxt SEO](/pro): Nuxt SEO is a collection of hand-crafted Nuxt Modules to help you rank higher in search engines.
+- [Nuxt SEO Pro: Community Feedback Analysis · Nuxt SEO](/pro/feedback): A review of the feedback from early adopters of Nuxt SEO Pro.
+- [SEO Tools for Developers · Nuxt SEO](/tools): Developer tools for SEO. Debug social share cards, generate robots.txt, check meta tags, keyword research, SERP analysis, and more.
+- [Domain Rankings Checker - See Your Keyword Positions · Nuxt SEO](/tools/domain-rankings): Check what keywords any domain ranks for. See positions, search volume, and estimated traffic. Find opportunities to improve your rankings.
+- [HTML to Markdown Converter - Convert URLs & HTML · Nuxt SEO](/tools/html-to-markdown): Convert any webpage or HTML to clean Markdown. Extract article content for Nuxt Content, static sites, LLMs, or documentation migration.
+- [SERP Keyword Research Tool · Nuxt SEO](/tools/keyword-research): Research keywords with volume, difficulty, and intent data. Find long-tail opportunities and track your research history.
+- [Meta Tag Checker - Validate Title & Description · Nuxt SEO](/tools/meta-tag-checker): Check your meta tags and preview how your page appears in Google. Validate title length, meta description, and Open Graph tags for better SEO.
+- [Robots.txt Generator - Create & Test Rules · Nuxt SEO](/tools/robots-txt-generator): Generate valid robots.txt files to block AI bots like GPTBot and Claude. Control crawler access, prevent AI scraping, and test your rules before deploying.
+- [Robots.txt Validator - Check Syntax & AI Blocking · Nuxt SEO](/tools/robots-txt-validator): Validate your robots.txt file for syntax errors and AI bot blocking. Check if GPTBot, ClaudeBot and other crawlers are properly blocked.
+- [Schema Validator - Test Structured Data · Nuxt SEO](/tools/schema-validator): Validate structured data on any URL. Check JSON-LD and Microdata markup for errors and ensure your Schema.org implementation is ready for Google rich results.
+- [SERP Analyzer - See Who Ranks for Any Keyword · Nuxt SEO](/tools/serp-analyzer): Analyze Google search results for any keyword. See top 10 rankings, domain authority, and SERP features like AI Overview and Featured Snippets.
+- [Social Share Debugger - Preview & Clear OG Cache · Nuxt SEO](/tools/social-share-debugger): Preview how your links appear on Twitter, Facebook, LinkedIn, Slack and Discord. Debug OG tags and clear platform caches instantly.
+- [XML Sitemap Validator - Check for Errors · Nuxt SEO](/tools/xml-sitemap-validator): Validate your XML sitemap for errors and Google compliance. Check URL format, test sitemap structure, and optimize for better crawl efficiency.
+
+## Other Pages
+
+- /docs/ai-kit/api/config
+- /docs/ai-kit/getting-started/installation
+- /docs/ai-kit/getting-started/introduction
+- /docs/ai-kit/guides/cloudflare
+- /docs/ai-kit/guides/embeddings
+- /docs/ai-kit/guides/persistent-chats
+- /docs/ai-kit/nitro-api/nitro-hooks
+
+- /learn-seo
+- /learn-seo/nuxt
+- /learn-seo/nuxt/controlling-crawlers/duplicate-content
+- /learn-seo/vue/controlling-crawlers/duplicate-content
+- /learn-seo/vue/launch-and-listen
+- /pro/wizard
