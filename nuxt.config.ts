@@ -11,4 +11,12 @@ export default defineNuxtConfig({
 	nitro: {
 		preset: "cloudflare",
 	},
+	studio: {
+		repository: {
+			owner: "andwati",
+			repo: "personal-website",
+			branch: "main",
+			provider: "github",
+		},
+	},
 });
