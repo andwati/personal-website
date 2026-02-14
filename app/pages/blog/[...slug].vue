@@ -46,6 +46,7 @@ useSeoMeta({
 
       <div class="prose prose-primary dark:prose-invert max-w-none prose-headings:scroll-mt-20 prose-pre:rounded-xl prose-pre:border prose-pre:border-(--ui-border)">
         <ContentRenderer :value="post" />
+        <UtterancesComments />
       </div>
     </div>
   </UContainer>
